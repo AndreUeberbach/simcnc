@@ -5,6 +5,9 @@ Sharing is caring. The scripts you will find here are customized to my machine, 
 - M6 tool change with linear magazine along the Y-axis
 - Front panel button integration 
 
+![M6 tool magazine image](http://cnc.a-ueberbach.de/picfor/ueberbach_m6_script_simcnc.png)
+
+
 ## Installation 
 - For M6: Copy file to profile/<yourmachine>/ 
 - Always remember to copy the ___CONF.py too and edit it!
