@@ -167,15 +167,15 @@ d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 if getPinStatus(in_toolinside) == True:   #inverted on my machine!
 
     # move to X position of tool + xslide value 
-    machine_pos[X] = pos_atc_pockets[1]['X'] + move_atc_xslide
+    machine_pos[X] = pos_atc_pockets[tool_old_id]['X'] + move_atc_xslide
     d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # move to Z- position of tool
-    machine_pos[Z] = pos_atc_pockets[1]['Z']
+    machine_pos[Z] = pos_atc_pockets[tool_old_id]['Z']
     d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_z_fast)
 
     # slide tool in pocket (X-)
-    machine_pos[X] = pos_atc_pockets[1]['X']
+    machine_pos[X] = pos_atc_pockets[tool_old_id]['X']
     d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # Open spindle clamping
@@ -192,9 +192,8 @@ if getPinStatus(in_toolinside) == True:   #inverted on my machine!
 	
     time.sleep(1)
 
-    # close clamping
+    # close clamping and write message 
     setOutput(out_opencollet, False)
-
     throwMessage(msg_tool_dropoff, "")
 
 
@@ -206,11 +205,11 @@ if getPinStatus(in_toolinside) == True:   #inverted on my machine!
 if tool_new_id > 0: 
 
     # move to X position of tool
-    machine_pos[X] = pos_atc_pockets[1]['X']
+    machine_pos[X] = pos_atc_pockets[tool_new_id]['X']
     d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # move to Y position of tool 
-    machine_pos[Y] =  pos_atc_pockets[1]['Y']
+    machine_pos[Y] =  pos_atc_pockets[tool_new_id]['Y']
     d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # open clamping
@@ -228,7 +227,7 @@ if tool_new_id > 0:
     setOutput(out_cleancone, True)
 
     # move to Z- of tool
-    machine_pos[Z] = pos_atc_pockets[1]['Z']
+    machine_pos[Z] = pos_atc_pockets[tool_new_id]['Z']
     d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_z_final)
 
     # close clamp and deactivate cone cleaning
@@ -246,7 +245,7 @@ if tool_new_id > 0:
         throwMessage(msg_tool_load_error, "exit")
 
     # slide tool out X+ + slideout
-    machine_pos[X] = pos_atc_pockets[1]['X'] + move_atc_xslide
+    machine_pos[X] = pos_atc_pockets[tool_new_id]['X'] + move_atc_xslide
     d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # move to Z safe 
