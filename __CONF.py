@@ -38,6 +38,7 @@ move_atc_z_safe     = -20
 move_atc_z_clean    = 10
 move_atc_xslide     = 75
 move_atc_safe_x     = 250           # safe position in X to move with tool in spindle 
+move_atc_safe_y     = 20            # safe position in Y to move to tool magazine 
 
 feed_atc_z_final    = 800
 feed_atc_z_fast     = 2500
@@ -48,6 +49,7 @@ conf_atc_purge_time = 0.5           # purge time in sec
 conf_tools_special  = {0}           # No automatic tool change 
 conf_tools_noprobe  = {0,10}        # No automatic length probing 
 conf_tools_count    = 10            # range considered for automatic change, rest will call for manual 
+conf_pause_debounce = 0.5           # debounce time for tool clamp close before checking sensor
 
 #-----------------------------------------------------------
 # Probing - WCS
