@@ -1,7 +1,14 @@
 #
-#   TwoGuysOneWorkshop
-#   simCNC configuration
-#   2023-05-25 / André 
+#   TWO GUYS, ONE WORKSHOP 
+#   http://cnc.a-ueberbach.de/
+#
+#   simCNC config file for my machine
+#
+#   Disclaimer. This is open source code and the author shall not be held responsible for any damages, injuries or losses.
+#   Use this code at your own risk and make sure you adjust it to your machine properly.
+#
+#   2023-05-25 / André Ueberbach 
+#   v1.0 2023-05-27
 #
 
 
