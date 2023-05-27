@@ -52,15 +52,15 @@ msg_noprobe             = "INFO - ATC - Tool probing aborted, tool number in exc
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def getPinStatus(pin_in):
 
-        csmio = d.getModule(ModuleType.IP, 0) 
+    csmio = d.getModule(ModuleType.IP, 0) 
 
-        if pin_in is None: #ignore 
-            return None
+    if pin_in is None: #ignore 
+        return None
 
-        if csmio.getDigitalIO(IOPortDir.InputPort, pin_in) == DIOPinVal.PinSet: 
-            return True
-        else:
-            return False 
+    if csmio.getDigitalIO(IOPortDir.InputPort, pin_in) == DIOPinVal.PinSet: 
+        return True
+    else:
+        return False 
         
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # FUNCTION to SET status of IO pin
@@ -92,7 +92,7 @@ def throwMessage(message, action):
     if message == True: 
         
         msg.info("\n"  + ttime + " - " + message)
-				
+
     if action == "exit":
         sys.exit(0)
         
@@ -110,7 +110,7 @@ machine_pos     =  d.getPosition(CoordMode.Machine)
 
 # if debug is enabled, output some helpful information
 if mode == "debug":
-	print(f"{tool_old_id}  -> {tool_new_id}")
+    print(f"{tool_old_id}  -> {tool_new_id}")
 
 #-----------------------------------------------------------
 # Perform pre-checks
@@ -167,33 +167,33 @@ d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 if getPinStatus(in_toolinside) == True:   #inverted on my machine!
 
     # move to X position of tool + xslide value 
-	machine_pos[X] = pos_atc_pockets[1]['X'] + move_atc_xslide
-	d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
+    machine_pos[X] = pos_atc_pockets[1]['X'] + move_atc_xslide
+    d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # move to Z- position of tool
-	machine_pos[Z] = pos_atc_pockets[1]['Z']
-	d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_z_fast)
+    machine_pos[Z] = pos_atc_pockets[1]['Z']
+    d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_z_fast)
 
     # slide tool in pocket (X-)
-	machine_pos[X] = pos_atc_pockets[1]['X']
-	d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
+    machine_pos[X] = pos_atc_pockets[1]['X']
+    d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # Open spindle clamping
-	setOutput(out_opencollet, True)
-	time.sleep(conf_pause_debounce)
+    setOutput(out_opencollet, True)
+    time.sleep(conf_pause_debounce)
 
-	# exit if clamp does not open
-	if getPinStatus(in_colletopened) == False:
-		throwMessage(msg_clamp_error, "exit")
+    # exit if clamp does not open
+    if getPinStatus(in_colletopened) == False:
+        throwMessage(msg_clamp_error, "exit")
 
     # move to safe Z
-	machine_pos[Z] =  move_atc_z_safe
-	d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_z_fast)		
+    machine_pos[Z] =  move_atc_z_safe
+    d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_z_fast)		
 	
-	time.sleep(1)
+    time.sleep(1)
 
     # close clamping
-	setOutput(out_opencollet, False)
+    setOutput(out_opencollet, False)
 
     throwMessage(msg_tool_dropoff, "")
 
@@ -206,8 +206,8 @@ if getPinStatus(in_toolinside) == True:   #inverted on my machine!
 if tool_new_id > 0: 
 
     # move to X position of tool
-	machine_pos[X] = pos_atc_pockets[1]['X']
-	d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
+    machine_pos[X] = pos_atc_pockets[1]['X']
+    d.moveToPosition(CoordMode.Machine, machine_pos, feed_atc_xy)
 
     # move to Y position of tool 
     machine_pos[Y] =  pos_atc_pockets[1]['Y']
@@ -217,8 +217,8 @@ if tool_new_id > 0:
     setOutput(out_opencollet, True)
 
     # check if clamping is open
-	if getPinStatus(in_colletopened) == False:
-		throwMessage(msg_clamp_error, "exit")
+    if getPinStatus(in_colletopened) == False:
+        throwMessage(msg_clamp_error, "exit")
 
     # move to Z- height where spindle cone cleaning is activated
     machine_pos[Z] = pos_atc_z_purge
