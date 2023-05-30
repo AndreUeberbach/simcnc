@@ -28,6 +28,9 @@ tools_number_start = 1
 tools_number_end = 16
 sim_tools_flush = True
 
+tool_parameter_create = True 
+tool_parameter_name_start = 1000 # custom parameter range to store tool names
+
 msg_resetalltools = "Do you want to reset all tool table data?"
 msg_notopened = "ERR - Import - Could not open file "
 msg_wrongfile = "ERR - Import - File does not theme a Fusion360 tool JSON"
@@ -121,3 +124,6 @@ for line, _tool in enumerate(data["data"]):
     tool_number = (line +1)
     d.setToolLength(tool_number, t_length)
     d.setToolDiameter(tool_number, t_diameter)
+
+    if tool_parameter_create == True:
+        d.setMachineParam((tool_parameter_name_start + tool_number), tool_number) # create custom parameter to store tool position in magazine 
