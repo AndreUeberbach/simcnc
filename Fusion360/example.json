@@ -1,0 +1,978 @@
+{
+    "data": [
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Holz Z=2 D=1 SL=5",
+            "geometry": {
+                "CSP": false,
+                "DC": 1,
+                "HAND": true,
+                "LB": 39,
+                "LCF": 5,
+                "NOF": 2,
+                "OAL": 39,
+                "SFDM": 3,
+                "shoulder-length": 8
+            },
+            "guid": "1fe9bb1b-3886-40ec-88d3-00e9f44d87d5",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 54,
+                "length-offset": 54,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 54,
+                "turret": 0
+            },
+            "product-id": "FSH082.0800.26",
+            "product-link": "",
+            "shaft": {
+                "segments": [
+                    {
+                        "height": 3,
+                        "lower-diameter": 1,
+                        "upper-diameter": 3
+                    }
+                ],
+                "type": "shaft"
+            },
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.044444444444444,
+                        "f_z": 0.083333333333333,
+                        "guid": "ef20b936-4e99-5116-34df-a986b15ef5e1",
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 56.54866776461628,
+                        "v_f": 3000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 800,
+                        "v_f_ramp": 1500
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Sorotec"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Holz Z=2 D=8 SL=26",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 63,
+                "LCF": 26,
+                "NOF": 2,
+                "OAL": 63,
+                "SFDM": 8,
+                "shoulder-length": 37
+            },
+            "guid": "42f0a88a-6981-4602-a4b9-515fcefd2627",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "turret": 0
+            },
+            "product-id": "FSH082.0800.26",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.044444444444444,
+                        "f_z": 0.083333333333333,
+                        "guid": "796ffc59-428d-4c66-6cd6-149b0b851ff6",
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "suction",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 452.3893421169303,
+                        "v_f": 3000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 800,
+                        "v_f_ramp": 1500
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Sorotec"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Holz Z=2 D=4 SL=16",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 60,
+                "LCF": 16,
+                "NOF": 2,
+                "OAL": 60,
+                "SFDM": 4,
+                "shoulder-length": 16
+            },
+            "guid": "594008b0-a930-45b7-83e3-855e10492e3d",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 3,
+                "length-offset": 3,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 3,
+                "turret": 0
+            },
+            "product-id": "FSH042.0400.16H30",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.044444444444444,
+                        "f_z": 0.083333333333333,
+                        "guid": "c617f4e8-41b7-6808-f631-639f1397d6e7",
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 226.1946710584653,
+                        "v_f": 3000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 800,
+                        "v_f_ramp": 1500
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Sorotec"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Holz Schrupp Z=2 D=6 SL=21",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 33,
+                "LCF": 21,
+                "NOF": 2,
+                "OAL": 33,
+                "SFDM": 6,
+                "shoulder-length": 21
+            },
+            "guid": "9e7e5e9a-291a-4cda-8507-ba05e7b570c4",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 57,
+                "length-offset": 57,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 57,
+                "turret": 0
+            },
+            "product-id": "FSHS062.0600.21",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.013888875,
+                        "f_z": 0.020833333333333,
+                        "guid": "32b125c2-4471-2f3b-ae50-75afa7166855",
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "suction",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 452.3893421169303,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Sorotec"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Holz Schrupp Z=2 D=8 SL=26",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 33,
+                "LCF": 26,
+                "NOF": 2,
+                "OAL": 33,
+                "SFDM": 8,
+                "shoulder-length": 26
+            },
+            "guid": "cc0acb85-7fc1-43e4-b4cf-5d36e9f6746b",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.148,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.836,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.176,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.57
+                    },
+                    {
+                        "height": 0.09,
+                        "lower-diameter": 1.57,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.425,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.05,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.85
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.442,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.145,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.118,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.215
+                    },
+                    {
+                        "height": 0.079,
+                        "lower-diameter": 2.215,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.143,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.502
+                    },
+                    {
+                        "height": 0.03,
+                        "lower-diameter": 2.502,
+                        "upper-diameter": 2.442
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 2,
+                "turret": 0
+            },
+            "product-id": "FSHS082.0800.26",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.013888875,
+                        "f_z": 0.020833333333333,
+                        "guid": "def60cc4-4a2a-6730-f5d8-6ca7aa51e1d1",
+                        "n": 24000,
+                        "n_ramp": 24000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "suction",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 603.1857894892403,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.333,
+                        "v_f_ramp": 333.333
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Sorotec"
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Holz Z=2 D=6 SL=21",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 80,
+                "LCF": 21,
+                "NOF": 2,
+                "OAL": 80,
+                "SFDM": 6,
+                "shoulder-length": 45
+            },
+            "guid": "cd079fca-593b-446d-be3e-69a0e27401c3",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 58,
+                "length-offset": 58,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 58,
+                "turret": 0
+            },
+            "product-id": "FSH062.0600.21H45",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0.044444444444444,
+                        "f_z": 0.083333333333333,
+                        "guid": "fce119c6-4f05-4728-77ab-5281b7bb88ee",
+                        "n": 18000,
+                        "n_ramp": 18000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 339.2920065876977,
+                        "v_f": 3000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 800,
+                        "v_f_ramp": 1500
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Sorotec"
+        },
+        {
+            "BMC": "hss",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 20,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 10.000000000000004,
+                "NOF": 3,
+                "OAL": 30,
+                "RE": 0,
+                "SFDM": 12,
+                "TA": 0,
+                "shoulder-length": 10.000000000000004
+            },
+            "guid": "9c3a0f8e-d873-4e6a-8141-847d5ee6601f",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 63,
+                "length-offset": 63,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 63,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.018518518518519,
+                        "f_z": 0.018518518518519,
+                        "guid": "81e7b088-d837-4871-a3e4-16bbe252efc6",
+                        "n": 18000,
+                        "n_ramp": 5000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 1130.9733552923258,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "carbide",
+            "description": "Planfräser Tornado",
+            "geometry": {
+                "CSP": false,
+                "DC": 60,
+                "HAND": true,
+                "LB": 50,
+                "LCF": 12,
+                "NOF": 3,
+                "OAL": 80,
+                "RE": 0,
+                "SFDM": 12,
+                "TA": 0,
+                "shoulder-length": 16
+            },
+            "guid": "4b5dd89c-4780-49db-be62-b18820142e1e",
+            "holder": {
+                "description": "BT30 - Blank",
+                "expressions": {
+                    "tool_description": "'BT30 - Blank'"
+                },
+                "guid": "a285a49c-054a-43fa-b5b9-1497ab92a1fb",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 44,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 46,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 2.309,
+                        "lower-diameter": 46,
+                        "upper-diameter": 38
+                    },
+                    {
+                        "height": 3.381,
+                        "lower-diameter": 38,
+                        "upper-diameter": 38
+                    },
+                    {
+                        "height": 2.309,
+                        "lower-diameter": 38,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 6.600000000000001,
+                        "lower-diameter": 46,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 46,
+                        "upper-diameter": 44
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 31.75000000000001,
+                        "upper-diameter": 31.75000000000001
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 8,
+                "length-offset": 8,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 8,
+                "turret": 0
+            },
+            "product-id": "609.01.12D",
+            "product-link": "https://www.fraisertools.com/de/levelbox-plan-und-falzfraser-tornado-kit.html",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.066666666666667,
+                        "f_z": 0.066666666666667,
+                        "guid": "07505720-e9e2-461b-87d1-19d92b4295e0",
+                        "n": 5000,
+                        "n_ramp": 5000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 942.4777960769376,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "face mill",
+            "unit": "millimeters",
+            "vendor": "Fraiser Bits"
+        },
+        {
+            "BMC": "hss",
+            "description": "Spiralnutfräser Positiv",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 40,
+                "LCF": 27,
+                "NOF": 2,
+                "OAL": 70,
+                "SFDM": 8,
+                "shoulder-length": 30
+            },
+            "guid": "828fb330-fb9d-418e-b155-b198fa1721bf",
+            "holder": {
+                "description": "BT30 - Blank",
+                "expressions": {
+                    "tool_description": "'BT30 - Blank'"
+                },
+                "guid": "a285a49c-054a-43fa-b5b9-1497ab92a1fb",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 44,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 46,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 2.309,
+                        "lower-diameter": 46,
+                        "upper-diameter": 38
+                    },
+                    {
+                        "height": 3.381,
+                        "lower-diameter": 38,
+                        "upper-diameter": 38
+                    },
+                    {
+                        "height": 2.309,
+                        "lower-diameter": 38,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 6.600000000000001,
+                        "lower-diameter": 46,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 46,
+                        "upper-diameter": 44
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 31.75000000000001,
+                        "upper-diameter": 31.75000000000001
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 59,
+                "length-offset": 59,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 59,
+                "turret": 0
+            },
+            "product-id": "302.060.8D",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.066666666666667,
+                        "f_z": 0.1,
+                        "guid": "2287ff37-b925-4d14-bdad-55b857a65267",
+                        "n": 5000,
+                        "n_ramp": 5000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 94.2477796076938,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Fraiser Bits"
+        },
+        {
+            "BMC": "hss",
+            "description": "Spiralnutfräser Positiv",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 12,
+                "NOF": 2,
+                "OAL": 50,
+                "SFDM": 3,
+                "shoulder-length": 12
+            },
+            "guid": "e3267be0-570b-46fe-835d-7eab9bd5155c",
+            "holder": {
+                "description": "BT30 - Blank",
+                "expressions": {
+                    "tool_description": "'BT30 - Blank'"
+                },
+                "guid": "a285a49c-054a-43fa-b5b9-1497ab92a1fb",
+                "product-id": "",
+                "product-link": "",
+                "segments": [
+                    {
+                        "height": 1,
+                        "lower-diameter": 44,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 3.4,
+                        "lower-diameter": 46,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 2.309,
+                        "lower-diameter": 46,
+                        "upper-diameter": 38
+                    },
+                    {
+                        "height": 3.381,
+                        "lower-diameter": 38,
+                        "upper-diameter": 38
+                    },
+                    {
+                        "height": 2.309,
+                        "lower-diameter": 38,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 6.600000000000001,
+                        "lower-diameter": 46,
+                        "upper-diameter": 46
+                    },
+                    {
+                        "height": 1,
+                        "lower-diameter": 46,
+                        "upper-diameter": 44
+                    },
+                    {
+                        "height": 2,
+                        "lower-diameter": 31.75000000000001,
+                        "upper-diameter": 31.75000000000001
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 55,
+                "length-offset": 55,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 55,
+                "turret": 0
+            },
+            "product-id": "302.030.3D",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "f_n": 0.066666666666667,
+                        "f_z": 0.1,
+                        "guid": "2287ff37-b925-4d14-bdad-55b857a65267",
+                        "n": 5000,
+                        "n_ramp": 5000,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "flood",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 47.1238898038469,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000,
+                        "v_f_plunge": 333.33333333333326,
+                        "v_f_ramp": 333.33333333333326
+                    }
+                ]
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": "Fraiser Bits"
+        },
+        {
+            "BMC": "unspecified",
+            "GRADE": "Mill Generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 14.000000000000004,
+                "HAND": true,
+                "LB": 43.8,
+                "LCF": 43.8,
+                "NOF": 1,
+                "OAL": 43.8,
+                "profile": [
+                    {
+                        "end": [
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "end": [
+                            4,
+                            4.898587196589417e-16
+                        ]
+                    },
+                    {
+                        "arc": true,
+                        "ccw": false,
+                        "center": [
+                            7.999482405474519,
+                            0.064346626172228
+                        ],
+                        "end": [
+                            7.000000000000004,
+                            3.937463577820716
+                        ]
+                    },
+                    {
+                        "end": [
+                            7.000000000000004,
+                            10
+                        ]
+                    },
+                    {
+                        "end": [
+                            4,
+                            10
+                        ]
+                    },
+                    {
+                        "end": [
+                            4,
+                            43.8
+                        ]
+                    },
+                    {
+                        "end": [
+                            0,
+                            43.8
+                        ]
+                    }
+                ],
+                "tip-offset": 0
+            },
+            "guid": "59364f2f-599b-4706-aa2e-692b700cf861",
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 62,
+                "length-offset": 62,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 62,
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "description": "",
+                        "f_n": 0,
+                        "f_z": 0,
+                        "guid": "712fa931-0c42-317c-9608-f6be7b606540",
+                        "n": 0,
+                        "n_ramp": 0,
+                        "name": "Vorgabe-Voreinstellung",
+                        "tool-coolant": "disabled",
+                        "use-stepdown": false,
+                        "use-stepover": false,
+                        "v_c": 0,
+                        "v_f": 0,
+                        "v_f_leadIn": 0,
+                        "v_f_leadOut": 0,
+                        "v_f_plunge": 0,
+                        "v_f_ramp": 0
+                    }
+                ]
+            },
+            "type": "form mill",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 19
+}
